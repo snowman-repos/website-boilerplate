@@ -3,7 +3,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
-const IndexPage = () => (
+const IndexPage = (): React.ReactElement => (
   <Layout>
     <SEO title="Home" />
     <h1>Hello World!</h1>

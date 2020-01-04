@@ -22,7 +22,8 @@ const Layout: React.FC = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          &copy; {new Date().getFullYear()}
+          &copy;
+          {new Date().getFullYear()}
           ,&nbsp;
           <a href="mailto:darryl@yourweb.expert">Darryl Snow</a>
         </footer>

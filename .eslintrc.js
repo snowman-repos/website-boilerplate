@@ -32,6 +32,8 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
     'no-useless-constructor': 'off',
     '@typescript-eslint/no-useless-constructor': 'error',
+    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
+    'import/extensions': ['error', 'never', { json: 'always', svg: 'always' }],
     quotes: 'off',
     '@typescript-eslint/quotes': [
       2,
